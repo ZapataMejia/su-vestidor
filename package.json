@@ -1,0 +1,34 @@
+{
+  "name": "su-vestidor",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Vestidor digital PWA — armario, outfits y looks guardados",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host",
+    "lint": "tsc --noEmit",
+    "process-closet": "node scripts/process-closet/process.mjs"
+  },
+  "dependencies": {
+    "dexie": "^4.0.10",
+    "dexie-react-hooks": "^1.1.7",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.4",
+    "autoprefixer": "^10.4.20",
+    "oxlint": "^1.75.0",
+    "postcss": "^8.4.49",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.0",
+    "vite-plugin-pwa": "^0.21.1"
+  }
+}
